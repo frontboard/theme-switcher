@@ -1,0 +1,26 @@
+:root {
+  --text-color: #000;
+  --bg-color: #fff;
+}
+
+.darkmode {
+  --text-color: #fff;
+  --bg-color: #000;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Only for presentation, not required */
+article {
+  max-width: 600px;
+  margin: 60px auto;
+}
+
+button {
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+}
